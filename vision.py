@@ -67,7 +67,7 @@ def draw_object_count(image, object_count):
 
 def start_object_detection():
     try:
-        image = cv2.imread('cars_trucks.png')
+        image = cv2.imread('trucks.jpg')
         image = find_objects(image)
 
         cv2.imshow('Image', image)
